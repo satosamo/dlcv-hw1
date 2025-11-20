@@ -1,0 +1,9 @@
+torch==2.7.0
+torchvision==0.22.0
+tqdm
+pyyaml
+click
+
+[dev]
+pytest
+ruff

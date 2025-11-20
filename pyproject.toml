@@ -1,0 +1,24 @@
+[project]
+name = "dlcv-hw1"
+version = "0.1.0"
+description = "CNN training on CIFAR-10 with local + GCP training"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.7.0",
+    "torchvision==0.22.0",
+    "tqdm",
+    "pyyaml",
+    "click",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+
+[tool.uv]
+package = true
+python-preference = "only-managed"

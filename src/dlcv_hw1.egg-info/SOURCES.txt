@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/cifar10_cnn/__init__.py
+src/cifar10_cnn/config.py
+src/cifar10_cnn/models.py
+src/cifar10_cnn/train.py
+src/dlcv_hw1.egg-info/PKG-INFO
+src/dlcv_hw1.egg-info/SOURCES.txt
+src/dlcv_hw1.egg-info/dependency_links.txt
+src/dlcv_hw1.egg-info/requires.txt
+src/dlcv_hw1.egg-info/top_level.txt
