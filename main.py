@@ -570,7 +570,7 @@ def get_best_experiments():
 
     cfg0["augment_mode"] = "best"
     cfg0["batch_size"] = 128
-    cfg0["epochs_full"] = 100
+    cfg0["epochs_full"] = 500
 
     exps = []
     exps.append(("best-sgd", cfg0))

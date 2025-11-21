@@ -83,7 +83,7 @@ def train_model(
     }
 
     if patience is None:
-        patience = 15
+        patience = 30
         print("No patience specifief, setting default value to 15.")
 
     # early stopping variables
