@@ -3,6 +3,7 @@ torchvision==0.22.0
 tqdm
 pyyaml
 click
+matplotlib
 
 [dev]
 pytest

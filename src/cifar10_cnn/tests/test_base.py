@@ -1,7 +1,8 @@
 import torch
-from cifar10_cnn.models.base import Cifar10_CNN_Base
-from cifar10_cnn.train import train_model
+from cifar10_cnn.modules.base import Cifar10_CNN_Base
+from cifar10_cnn.training.train import train_model
 from cifar10_cnn.utils.datasets import get_loaders
+
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 

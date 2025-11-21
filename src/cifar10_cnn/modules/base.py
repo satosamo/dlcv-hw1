@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 
+
 class Cifar10_CNN_Base(nn.Module):
     def __init__(self, activation=nn.ReLU):
         super().__init__()
